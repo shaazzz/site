@@ -1,4 +1,16 @@
 site_name: ویکی شاززز
+site_url: https://parsaalizadeh.github.io/wiki/
+site_author: shaazzz
+
+repo_url: https://github.com/ParsaAlizadeh/wiki
+repo_name: ParsaAlizadeh/wiki
+edit_uri: edit/main/docs/
+
+copyright: |
+  این راهنما تحت پروانه
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color: #4ab6f1">CC-BY-SA</a>
+  در دسترس است.
+
 theme:
   name: material
   custom_dir: overrides
@@ -18,7 +30,7 @@ theme:
     text: Vazir
     code: Source Code Pro
   logo: assets/images/sid.png
-  favicon: assets/images/sid.ico
+  favicon: assets/images/sid.png
   plugins:
     - search:
         lang:
@@ -71,10 +83,3 @@ extra:
     - icon: fontawesome/brands/telegram
       link: https://t.me/shaazzz
       name: تلگرام
-copyright: |
-  این راهنما تحت پروانه
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color: #4ab6f1">CC-BY-SA</a>
-  در دسترس است.
-repo_url: https://github.com/ParsaAlizadeh/wiki
-repo_name: ParsaAlizadeh/wiki
-edit_uri: edit/main/docs/
