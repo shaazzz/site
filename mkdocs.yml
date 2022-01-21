@@ -74,7 +74,7 @@ extra:
       link: https://shaazzz.ir
       name: وب‌سایت
     - icon: fontawesome/solid/blog
-      link: https://blog.shaazzz.ir
+      link: http://blog.shaazzz.ir
       name: وبلاگ
     - icon: fontawesome/brands/github
       link: https://github.com/shaazzz
