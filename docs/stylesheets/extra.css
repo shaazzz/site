@@ -1,0 +1,11 @@
+@import url('https://v1.fontapi.ir/css/Vazir');
+:root {
+  --md-primary-fg-color:        #073e5c;
+}
+[data-md-color-scheme="slate"] {
+  --md-hue: 210;
+  --md-typeset-a-color: #4ab6f1;
+}
+.md-sidebar--primary {
+  display: none;
+}

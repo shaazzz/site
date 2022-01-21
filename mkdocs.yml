@@ -1,0 +1,79 @@
+site_name: ویکی شاززز
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: تم روشن
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: تم تیره
+  language: fa
+  font:
+    text: Vazir
+    code: Source Code Pro
+  logo: assets/images/sid.png
+  favicon: assets/images/sid.ico
+  plugins:
+    - search:
+        lang:
+          - en
+          - fa
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs.sticky
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra:
+  social:
+    - icon: material/web
+      link: https://shaazzz.ir
+      name: وب‌سایت
+    - icon: fontawesome/solid/blog
+      link: https://blog.shaazzz.ir
+      name: وبلاگ
+    - icon: fontawesome/brands/github
+      link: https://github.com/shaazzz
+      name: گیت‌هاب
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/shaazzz
+      name: تلگرام
+copyright: |
+  این راهنما تحت پروانه
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color: #4ab6f1">CC-BY-SA</a>
+  در دسترس است.
+repo_url: https://github.com/ParsaAlizadeh/wiki
+repo_name: ParsaAlizadeh/wiki
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
