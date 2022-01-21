@@ -6,6 +6,12 @@
 
 <!-- Header -->
 <header class="{{ class }}" data-md-component="header">
+  <script>
+    function scrollToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
   <nav
     class="md-header__inner md-grid"
     aria-label="{{ lang.t('header.title') }}"
@@ -27,16 +33,25 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            {{ config.site_name }}
+            <a
+              href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+              title="{{ config.site_name | e }}"
+              aria-label="{{ config.site_name }}"
+              data-md-component="logo"
+            >
+              {{ config.site_name }}
+            </a>
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
-            {% if page and page.meta and page.meta.title %}
-              {{ page.meta.title }}
-            {% else %}
-              {{ page.title }}
-            {% endif %}
+            <a href="#" onclick="scrollToTop()">
+              {% if page and page.meta and page.meta.title %}
+                {{ page.meta.title }}
+              {% else %}
+                {{ page.title }}
+              {% endif %}
+            </a>
           </span>
         </div>
       </div>
