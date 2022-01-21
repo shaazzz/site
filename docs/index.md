@@ -52,7 +52,9 @@ ll C(ll n, ll r) {
 
 ## لاتک
 
-\[ \sum_{i=0}^{n}{2^i} = 2^{n-1} \]
+\[ T(n) = 2\cdot T(\frac{n}{2}) + O(n \log n) \]
+
+\[ \Rightarrow T(n) \in O(n \log^2 n) \]
 
 ## صفحه‌های دیگه
 
