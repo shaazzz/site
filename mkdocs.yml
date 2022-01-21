@@ -85,3 +85,4 @@ extra:
 nav:
   - index.md
   - intro/index.md
+  - combinatorics/index.md
