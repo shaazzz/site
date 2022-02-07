@@ -36,3 +36,6 @@
 .blog-page span {
   vertical-align: middle !important;
 }
+.last-years img {
+  max-width: 680px;
+}

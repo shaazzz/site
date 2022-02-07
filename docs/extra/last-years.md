@@ -1,11 +1,6 @@
----
-blog:
-    author: 
-    date: []
----
-# عکس دوره های قبل
+# عکس دوره‌های قبل
 
-<div class="cnt">
+<div class="cnt last-years">
 <style type="text/css">#wrp .box1 .bx_center .post .body .cnt img{
 	max-width:198% !important;
 }
