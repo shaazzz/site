@@ -80,6 +80,7 @@ def main():
     global blog_root
     if len(sys.argv) == 2:
         blog_root = sys.argv[1]
+    (root/'page').mkdir(exist_ok=True)
     files = get_files()
     metafiles = get_metafiles(files)
     metafiles.sort(key=lambda u: u[1]['date'], reverse=True)
