@@ -1,4 +1,4 @@
-site_name: ویکی شاززز
+site_name: شاززز
 site_url: https://parsaalizadeh.github.io/wiki/
 site_author: shaazzz
 
@@ -7,7 +7,7 @@ repo_name: ParsaAlizadeh/wiki
 edit_uri: edit/main/docs/
 
 copyright: |
-  این راهنما تحت پروانه
+  تمامی مطالب این وب‌سایت تحت پروانه
   <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color: #4ab6f1">CC-BY-SA</a>
   در دسترس است.
 
@@ -73,9 +73,6 @@ extra:
     - icon: material/web
       link: https://shaazzz.ir
       name: وب‌سایت
-    - icon: fontawesome/solid/blog
-      link: http://blog.shaazzz.ir
-      name: وبلاگ
     - icon: fontawesome/brands/github
       link: https://github.com/shaazzz
       name: گیت‌هاب
@@ -84,5 +81,4 @@ extra:
       name: تلگرام
 nav:
   - index.md
-  - intro/index.md
-  - combinatorics/index.md
+  - کتاب گراف: https://gtoi.shaazzz.ir/
