@@ -1,7 +1,7 @@
 ---
 blog:
     author: محمد مهدی شکری
-    date: [1400, 4, 22, 13, 41]
+    date: [1395, 4, 23, 13, 41]
 ---
 # کنکورهای المپیادی
 
@@ -57,6 +57,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">محمد مهدی شکری</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۳:۴۱</div>
+    <div class="blog-date">۱۳۹۵/۰۴/۲۳ ۱۳:۴۱</div>
 </div>
 

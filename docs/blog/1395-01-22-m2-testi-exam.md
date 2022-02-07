@@ -1,7 +1,7 @@
 ---
 blog:
     author: علی بهجتی
-    date: [1400, 4, 22, 16, 56]
+    date: [1395, 1, 22, 16, 56]
 ---
 # آزمون تستی مرحله ۲ شاززز
 
@@ -33,6 +33,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">علی بهجتی</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۶:۵۶</div>
+    <div class="blog-date">۱۳۹۵/۰۱/۲۲ ۱۶:۵۶</div>
 </div>
 

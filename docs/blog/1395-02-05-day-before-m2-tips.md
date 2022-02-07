@@ -1,7 +1,7 @@
 ---
 blog:
     author: علی بهجتی
-    date: [1400, 4, 22, 23, 48]
+    date: [1395, 2, 5, 23, 48]
 ---
 # نکات روز قبل مرحله ۲یی
 
@@ -55,6 +55,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">علی بهجتی</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۲۳:۴۸</div>
+    <div class="blog-date">۱۳۹۵/۰۲/۰۵ ۲۳:۴۸</div>
 </div>
 

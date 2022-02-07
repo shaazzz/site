@@ -1,7 +1,7 @@
 ---
 blog:
     author: طلاهای دوره ۲۸
-    date: [1400, 4, 22, 13, 53]
+    date: [1397, 9, 4, 13, 53]
 ---
 # سلام اول
 
@@ -21,6 +21,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۳:۵۳</div>
+    <div class="blog-date">۱۳۹۷/۰۹/۰۴ ۱۳:۵۳</div>
 </div>
 

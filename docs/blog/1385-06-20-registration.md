@@ -1,7 +1,7 @@
 ---
 blog:
     author: شااززز منگولیا
-    date: [1400, 4, 22, 24, 35]
+    date: [1385, 6, 20, 24, 35]
 ---
 # registration
 
@@ -13,6 +13,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">شااززز منگولیا</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۲۴:۳۵</div>
+    <div class="blog-date">۱۳۸۵/۰۶/۲۰ ۲۴:۳۵</div>
 </div>
 

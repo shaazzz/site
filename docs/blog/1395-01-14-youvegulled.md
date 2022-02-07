@@ -1,7 +1,7 @@
 ---
 blog:
     author: محمد مهدی شکری
-    date: [1400, 4, 22, 12, 18]
+    date: [1395, 1, 14, 12, 18]
 ---
 # ۱۳ به در امسال چگونه گذشت
 
@@ -48,6 +48,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">محمد مهدی شکری</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۲:۱۸</div>
+    <div class="blog-date">۱۳۹۵/۰۱/۱۴ ۱۲:۱۸</div>
 </div>
 

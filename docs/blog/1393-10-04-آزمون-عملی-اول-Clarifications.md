@@ -1,7 +1,7 @@
 ---
 blog:
     author: شااززز منگولیا
-    date: [1400, 4, 22, 24, 39]
+    date: [1393, 10, 4, 24, 39]
 ---
 # آزمون عملی اول - Clarifications
 
@@ -31,6 +31,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">شااززز منگولیا</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۲۴:۳۹</div>
+    <div class="blog-date">۱۳۹۳/۱۰/۰۴ ۲۴:۳۹</div>
 </div>
 

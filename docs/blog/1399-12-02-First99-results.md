@@ -1,7 +1,7 @@
 ---
 blog:
     author: طلاهای دوره ۳۰
-    date: [1400, 4, 22, 19, 50]
+    date: [1399, 12, 2, 19, 50]
 ---
 # نتایج ازمون شبیه ساز مرحله اول شاززز
 
@@ -23,6 +23,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">طلاهای دوره ۳۰</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۹:۵۰</div>
+    <div class="blog-date">۱۳۹۹/۱۲/۰۲ ۱۹:۵۰</div>
 </div>
 

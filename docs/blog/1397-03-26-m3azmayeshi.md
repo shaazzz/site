@@ -1,7 +1,7 @@
 ---
 blog:
     author: سید مهدی صادق شبیری
-    date: [1400, 4, 22, 17, 46]
+    date: [1397, 3, 26, 17, 46]
 ---
 # آزمون مرحله ۳ ای!!!
 
@@ -25,6 +25,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">سید مهدی صادق شبیری</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۷:۴۶</div>
+    <div class="blog-date">۱۳۹۷/۰۳/۲۶ ۱۷:۴۶</div>
 </div>
 

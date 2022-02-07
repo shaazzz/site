@@ -1,7 +1,7 @@
 ---
 blog:
     author: شااززز منگولیا
-    date: [1400, 4, 22, 14, 29]
+    date: [1389, 7, 9, 14, 29]
 ---
 # Hello World
 
@@ -17,6 +17,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">شااززز منگولیا</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۴:۲۹</div>
+    <div class="blog-date">۱۳۸۹/۰۷/۰۹ ۱۴:۲۹</div>
 </div>
 

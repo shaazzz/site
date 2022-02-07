@@ -1,7 +1,7 @@
 ---
 blog:
     author: شااززز منگولیا
-    date: [1400, 4, 22, 15, 13]
+    date: [1397, 3, 10, 15, 13]
 ---
 # مسابقه المپیادی با همکاری Quera
 
@@ -16,6 +16,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">شااززز منگولیا</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۵:۱۳</div>
+    <div class="blog-date">۱۳۹۷/۰۳/۱۰ ۱۵:۱۳</div>
 </div>
 

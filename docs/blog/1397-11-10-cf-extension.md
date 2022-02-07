@@ -1,7 +1,7 @@
 ---
 blog:
     author: طلاهای دوره ۲۸
-    date: [1400, 4, 22, 20, 4]
+    date: [1397, 11, 10, 20, 4]
 ---
 # cf extension
 
@@ -19,6 +19,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۲۰:۰۴</div>
+    <div class="blog-date">۱۳۹۷/۱۱/۱۰ ۲۰:۰۴</div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 blog:
     author: علی بهجتی
-    date: [1400, 4, 22, 11, 51]
+    date: [1395, 7, 16, 11, 51]
 ---
 # پایان‌نامه
 
@@ -23,6 +23,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">علی بهجتی</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۱:۵۱</div>
+    <div class="blog-date">۱۳۹۵/۰۷/۱۶ ۱۱:۵۱</div>
 </div>
 

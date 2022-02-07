@@ -1,7 +1,7 @@
 ---
 blog:
     author: طلاهای دوره ۲۸
-    date: [1400, 4, 22, 23, 16]
+    date: [1397, 10, 21, 23, 16]
 ---
 # سوال شب ۵
 
@@ -20,6 +20,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۲۳:۱۶</div>
+    <div class="blog-date">۱۳۹۷/۱۰/۲۱ ۲۳:۱۶</div>
 </div>
 

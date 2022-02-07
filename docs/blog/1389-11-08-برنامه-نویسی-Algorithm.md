@@ -1,7 +1,7 @@
 ---
 blog:
     author: شااززز منگولیا
-    date: [1400, 4, 22, 8, 20]
+    date: [1389, 11, 8, 8, 20]
 ---
 # برنامه‌نویسی: Algorithm
 
@@ -19,6 +19,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">شااززز منگولیا</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۰۸:۲۰</div>
+    <div class="blog-date">۱۳۸۹/۱۱/۰۸ ۰۸:۲۰</div>
 </div>
 

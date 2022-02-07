@@ -1,7 +1,7 @@
 ---
 blog:
     author: محمد مهدی شکری
-    date: [1400, 4, 22, 10, 31]
+    date: [1395, 2, 1, 10, 31]
 ---
 # نکات ایمنی امتحان دادن!
 
@@ -65,6 +65,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">محمد مهدی شکری</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۰:۳۱</div>
+    <div class="blog-date">۱۳۹۵/۰۲/۰۱ ۱۰:۳۱</div>
 </div>
 

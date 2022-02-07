@@ -1,7 +1,7 @@
 ---
 blog:
     author: طلاهای دوره ۲۸
-    date: [1400, 4, 22, 15, 58]
+    date: [1398, 1, 24, 15, 58]
 ---
 # اتماام آزمون ۴ ام شاززز
 
@@ -29,6 +29,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۵:۵۸</div>
+    <div class="blog-date">۱۳۹۸/۰۱/۲۴ ۱۵:۵۸</div>
 </div>
 

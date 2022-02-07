@@ -1,7 +1,7 @@
 ---
 blog:
     author: محمد مهدی شکری
-    date: [1400, 4, 22, 10, 30]
+    date: [1395, 3, 26, 10, 30]
 ---
 # آزمون عملی پنجم شاززز
 
@@ -34,6 +34,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">محمد مهدی شکری</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۰:۳۰</div>
+    <div class="blog-date">۱۳۹۵/۰۳/۲۶ ۱۰:۳۰</div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 blog:
     author: طلاهای دوره ۳۰
-    date: [1400, 4, 22, 3, 38]
+    date: [1400, 10, 9, 3, 38]
 ---
 # خداحافظی طلا های دوره ۳۰
 
@@ -15,6 +15,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">طلاهای دوره ۳۰</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۰۳:۳۸</div>
+    <div class="blog-date">۱۴۰۰/۱۰/۰۹ ۰۳:۳۸</div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 blog:
     author: طلاهای دوره ۲۸
-    date: [1400, 4, 22, 12, 23]
+    date: [1398, 2, 10, 12, 23]
 ---
 # قبل مرحله ۲
 
@@ -42,6 +42,6 @@ blog:
 
 <div class="blog-info">
     <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۱۲:۲۳</div>
+    <div class="blog-date">۱۳۹۸/۰۲/۱۰ ۱۲:۲۳</div>
 </div>
 
