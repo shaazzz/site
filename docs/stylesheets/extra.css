@@ -23,3 +23,16 @@
 .blog-info .blog-date {
   direction: ltr;
 }
+.blog-page {
+  direction: ltr;
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+}
+.blog-page a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.blog-page span {
+  vertical-align: middle !important;
+}
