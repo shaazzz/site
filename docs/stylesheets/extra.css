@@ -9,3 +9,17 @@
 .md-sidebar--primary {
   display: none;
 }
+.md-header__button.md-logo,
+.md-tabs {
+  display: block !important;
+}
+.blog-info {
+  display: flex;
+  justify-content: space-between;
+  color: var(--md-default-fg-color--light);
+  font-size: 90%;
+  margin-top: 50px;
+}
+.blog-info .blog-date {
+  direction: ltr;
+}
