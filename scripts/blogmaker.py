@@ -1,8 +1,10 @@
 from pathlib import Path
 from frontmatter import Frontmatter
 from persiantools import digits
+import sys
 
 root = Path('docs/blog')
+blog_root = '/wiki'
 
 def get_files():
     return list(root.glob('post/*.md'))
@@ -53,7 +55,7 @@ def read_content(file):
     post = Frontmatter.read_file(file)
     content = post["body"].split('\n')
     _, loc = str(file).split('/', 1)
-    loc = '/' + loc[:-3]
+    loc = f'{blog_root}/{loc[:-3]}'
     for i in range(len(content)):
         if content[i][0:2] == '# ':
             _, title = content[i].split(' ', 1)
@@ -66,15 +68,22 @@ def make_pagination(index, prv, nxt):
     result = '<div class="blog-page" markdown>\n\n'
     if prv:
         s = digits.en_to_fa(str(index-1))
-        result += f'[:octicons-arrow-left-24: {s}](/blog/page/{index-1})\n'
+        result += f'[:octicons-arrow-left-24: {s}]({blog_root}/blog/page/{index-1})\n'
     result += digits.en_to_fa(str(index)) + '\n'
     if nxt:
         s = digits.en_to_fa(str(index+1))
-        result += f'[{s} :octicons-arrow-right-24:](/blog/page/{index+1})\n'
+        result += f'[{s} :octicons-arrow-right-24:]({blog_root}/blog/page/{index+1})\n'
     result += '\n</div>'
     return result
 
-files = get_files()
-metafiles = get_metafiles(files)
-metafiles.sort(key=lambda u: u[1]['date'], reverse=True)
-make_all(metafiles)
+def main():
+    global blog_root
+    if len(sys.argv) == 2:
+        blog_root = sys.argv[1]
+    files = get_files()
+    metafiles = get_metafiles(files)
+    metafiles.sort(key=lambda u: u[1]['date'], reverse=True)
+    make_all(metafiles)
+
+if __name__ == "__main__":
+    main()
