@@ -25,7 +25,6 @@ def sanitize(href):
     return href
 
 def parse_post(href):
-    global soup
     post = fetch_post(href)
     soup = BeautifulSoup(post.text, 'lxml')
 
@@ -35,7 +34,7 @@ def parse_post(href):
 
     title = soup.select_one('.post .title a').text
     author = soup.select_one('.author').text
-    date = parse_date("/1400/04/22/quera_contest1", soup)
+    date = parse_date(href, soup)
 
     title, author = map(digits.en_to_fa, [title, author])
 
