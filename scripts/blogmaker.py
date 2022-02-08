@@ -22,31 +22,22 @@ def get_metafiles(files):
 def make_all(metafiles):
     n = len(metafiles)
     k = 8
-    timer = 0
+    batches = []
     for i in range(0, n, k):
-        timer += 1
-        make_page(
-            index=timer,
-            metafiles=metafiles[i:i+k],
-            prv=(i>0),
-            nxt=(i+k<n)
-        )
-        if timer == 1:
-            make_page(
-                index=timer,
-                metafiles=metafiles[i:i+k],
-                prv=(i>0),
-                nxt=(i+k<n),
-                title="# بلاگ",
-                result_path="docs/index.md"
-            )
+        batches.append(metafiles[i:i+k])
+    for i, batch in enumerate(batches):
+        make_page(i+1, batch, len(batches))
+    make_page(1, batches[0], len(batches),
+        title="# بلاگ",
+        result_path="docs/index.md"
+    )
 
-def make_page(index, metafiles, prv, nxt, title=None, result_path=None):
+def make_page(index, metafiles, n_page, title=None, result_path=None):
     title = title or digits.en_to_fa(f"# صفحه {index}")
     content = title + '\n'
     for post in metafiles:
         content += read_content(post[0])
-    content += make_pagination(index, prv, nxt)
+    content += make_pagination(index, n_page)
     result_path = result_path or f"docs/blog/page/{index}.md"
     with open(result_path, 'w') as file:
         file.write(content)
@@ -64,15 +55,19 @@ def read_content(file):
     content = '\n'.join(content)
     return content
 
-def make_pagination(index, prv, nxt):
+def make_pagination(index, n_page):
     result = '<div class="blog-page" markdown>\n\n'
-    if prv:
-        s = digits.en_to_fa(str(index-1))
-        result += f'[:octicons-arrow-left-24: {s}]({blog_root}/blog/page/{index-1})\n'
-    result += digits.en_to_fa(str(index)) + '\n'
-    if nxt:
-        s = digits.en_to_fa(str(index+1))
-        result += f'[{s} :octicons-arrow-right-24:]({blog_root}/blog/page/{index+1})\n'
+    sant = lambda x : digits.en_to_fa(str(x))
+    path = lambda x : f'{blog_root}/blog/page/{x}'
+    if index > 2:
+        result += f'[:material-arrow-collapse-left: {sant(1)}]({path(1)})\n'
+    if index > 1:
+        result += f'[:material-arrow-left: {sant(index-1)}]({path(index-1)})\n'
+    result += sant(index) + '\n'
+    if index < n_page:
+        result += f'[{sant(index+1)} :material-arrow-right:]({path(index+1)})\n'
+    if index < n_page-1:
+        result += f'[{sant(n_page)} :material-arrow-collapse-right:]({path(n_page)})\n'
     result += '\n</div>'
     return result
 
