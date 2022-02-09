@@ -38,6 +38,7 @@ def markdown_post(content, author, date):
 blog:
     author: {author}
     date: {date}
+template: blog.html
 ---
 {content}
 

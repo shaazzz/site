@@ -81,6 +81,7 @@ def markdown_post(href):
 blog:
     author: {author}
     date: {date}
+template: blog.html
 ---
 # {title}
 
