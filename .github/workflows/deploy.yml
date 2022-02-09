@@ -12,6 +12,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install -r scripts/requirements.txt
-      - run: python3 scripts/blogmaker.py '/wiki'
+      - run: python3 scripts/blogmaker.py '/site'
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force

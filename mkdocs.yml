@@ -1,9 +1,9 @@
 site_name: شاززز
-site_url: https://parsaalizadeh.github.io/wiki/
+site_url: https://shaazzz.github.io/site/
 site_author: shaazzz
 
-repo_url: https://github.com/ParsaAlizadeh/wiki
-repo_name: ParsaAlizadeh/wiki
+repo_url: https://github.com/shaazzz/site
+repo_name: shaazzz/site
 edit_uri: edit/main/docs/
 
 copyright: |
@@ -82,4 +82,4 @@ extra:
 nav:
   - index.md
   - کتاب گراف: https://gtoi.shaazzz.ir/
-  - عکس دوره‌های قبل: [extra/last-years]
+  - عکس دوره‌های قبل: extra/last-years
