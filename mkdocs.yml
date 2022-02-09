@@ -1,11 +1,6 @@
 site_name: شاززز
 site_url: https://shaazzz.ir
 site_author: shaazzz
-
-repo_url: https://github.com/shaazzz/site
-repo_name: shaazzz/site
-edit_uri: edit/main/docs/
-
 copyright: |
   تمامی مطالب این وب‌سایت تحت پروانه
   <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color: #4ab6f1">CC-BY-SA</a>
@@ -36,8 +31,6 @@ theme:
         lang:
           - en
           - fa
-  icon:
-    repo: fontawesome/brands/github
   features:
     - navigation.tabs
 markdown_extensions:
