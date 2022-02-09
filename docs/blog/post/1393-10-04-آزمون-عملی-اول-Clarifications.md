@@ -2,6 +2,7 @@
 blog:
     author: شااززز منگولیا
     date: [1393, 10, 4, 24, 39]
+template: blog.html
 ---
 # آزمون عملی اول - Clarifications
 

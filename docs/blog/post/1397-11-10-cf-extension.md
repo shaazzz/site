@@ -2,6 +2,7 @@
 blog:
     author: طلاهای دوره ۲۸
     date: [1397, 11, 10, 20, 4]
+template: blog.html
 ---
 # cf extension
 

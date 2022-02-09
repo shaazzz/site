@@ -2,6 +2,7 @@
 blog:
     author: طلاهای دوره ۲۸
     date: [1397, 9, 4, 13, 53]
+template: blog.html
 ---
 # سلام اول
 

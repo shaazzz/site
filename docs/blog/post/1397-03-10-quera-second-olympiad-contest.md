@@ -2,6 +2,7 @@
 blog:
     author: شااززز منگولیا
     date: [1397, 3, 10, 15, 13]
+template: blog.html
 ---
 # مسابقه المپیادی با همکاری Quera
 

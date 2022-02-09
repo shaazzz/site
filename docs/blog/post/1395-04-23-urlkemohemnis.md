@@ -2,6 +2,7 @@
 blog:
     author: محمد مهدی شکری
     date: [1395, 4, 23, 13, 41]
+template: blog.html
 ---
 # کنکورهای المپیادی
 

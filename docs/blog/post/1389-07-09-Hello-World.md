@@ -2,6 +2,7 @@
 blog:
     author: شااززز منگولیا
     date: [1389, 7, 9, 14, 29]
+template: blog.html
 ---
 # Hello World
 

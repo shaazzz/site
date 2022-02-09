@@ -2,6 +2,7 @@
 blog:
     author: شااززز منگولیا
     date: [1385, 6, 20, 24, 35]
+template: blog.html
 ---
 # registration
 

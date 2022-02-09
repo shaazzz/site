@@ -2,6 +2,7 @@
 blog:
     author: شااززز منگولیا
     date: [1389, 11, 8, 8, 20]
+template: blog.html
 ---
 # برنامه‌نویسی: Algorithm
 

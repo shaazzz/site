@@ -2,6 +2,7 @@
 blog:
     author: علی بهجتی
     date: [1395, 7, 16, 11, 51]
+template: blog.html
 ---
 # پایان‌نامه
 

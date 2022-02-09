@@ -2,6 +2,7 @@
 blog:
     author: طلاهای دوره ۲۸
     date: [1397, 10, 21, 23, 16]
+template: blog.html
 ---
 # سوال شب ۵
 

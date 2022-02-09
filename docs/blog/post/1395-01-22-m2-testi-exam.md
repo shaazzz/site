@@ -2,6 +2,7 @@
 blog:
     author: علی بهجتی
     date: [1395, 1, 22, 16, 56]
+template: blog.html
 ---
 # آزمون تستی مرحله ۲ شاززز
 

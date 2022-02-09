@@ -2,6 +2,7 @@
 blog:
     author: علی بهجتی
     date: [1395, 2, 5, 23, 48]
+template: blog.html
 ---
 # نکات روز قبل مرحله ۲یی
 

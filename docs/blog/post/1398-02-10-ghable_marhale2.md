@@ -2,6 +2,7 @@
 blog:
     author: طلاهای دوره ۲۸
     date: [1398, 2, 10, 12, 23]
+template: blog.html
 ---
 # قبل مرحله ۲
 

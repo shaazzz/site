@@ -2,6 +2,7 @@
 blog:
     author: طلاهای دوره ۳۰
     date: [1400, 4, 22, 22, 25]
+template: blog.html
 ---
 # ازمون عملی
 
