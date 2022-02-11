@@ -1,2 +1,4 @@
 /docs/index.md
 /docs/blog/page
+/scripts/raw
+__pycache__/
