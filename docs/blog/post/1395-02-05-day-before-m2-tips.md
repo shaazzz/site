@@ -54,8 +54,12 @@ template: blog.html
 <div dir="rtl">پ.ن: دیگه میتونین کامنت بذارین! 😊</div>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">علی بهجتی</div>
-    <div class="blog-date">۱۳۹۵/۰۲/۰۵ ۲۳:۴۸</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: علی بهجتی
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۵/۰۲/۰۵ · :octicons-clock-24: ۲۳:۴۸
+</span>
 </div>
 

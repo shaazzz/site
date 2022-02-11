@@ -20,8 +20,12 @@ template: blog.html
 <p>نویسنده: میکائیل</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۳۹۷/۰۹/۰۴ ۱۳:۵۳</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: طلاهای دوره ۲۸
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۷/۰۹/۰۴ · :octicons-clock-24: ۱۳:۵۳
+</span>
 </div>
 

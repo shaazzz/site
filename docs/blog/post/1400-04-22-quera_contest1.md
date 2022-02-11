@@ -20,8 +20,12 @@ template: blog.html
 <p>نویسنده: علی شاه علی</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">طلاهای دوره ۳۰</div>
-    <div class="blog-date">۱۴۰۰/۰۴/۲۲ ۲۲:۲۵</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: طلاهای دوره ۳۰
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۴۰۰/۰۴/۲۲ · :octicons-clock-24: ۲۲:۲۵
+</span>
 </div>
 

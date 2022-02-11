@@ -41,8 +41,12 @@ template: blog.html
 <p>نویسنده ها: میکائیل قربانی و امیرمحمد ایمانی</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۳۹۸/۰۲/۱۰ ۱۲:۲۳</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: طلاهای دوره ۲۸
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۸/۰۲/۱۰ · :octicons-clock-24: ۱۲:۲۳
+</span>
 </div>
 

@@ -22,8 +22,12 @@ template: blog.html
 <p>اگر پیشنهاد یا انتقادی دارید میتوانید در نظرات این بلاگ برای ما بنویسید :)</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">طلاهای دوره ۳۰</div>
-    <div class="blog-date">۱۳۹۹/۱۲/۰۲ ۱۹:۵۰</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: طلاهای دوره ۳۰
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۹/۱۲/۰۲ · :octicons-clock-24: ۱۹:۵۰
+</span>
 </div>
 

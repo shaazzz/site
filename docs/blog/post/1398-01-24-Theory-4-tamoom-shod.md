@@ -28,8 +28,12 @@ template: blog.html
 <div>میکائیل قربانی</div>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۳۹۸/۰۱/۲۴ ۱۵:۵۸</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: طلاهای دوره ۲۸
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۸/۰۱/۲۴ · :octicons-clock-24: ۱۵:۵۸
+</span>
 </div>
 

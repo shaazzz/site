@@ -47,8 +47,12 @@ template: blog.html
 <p>براتون اوقات خوب و خوشی آرزومندیم :-)</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">محمد مهدی شکری</div>
-    <div class="blog-date">۱۳۹۵/۰۱/۱۴ ۱۲:۱۸</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: محمد مهدی شکری
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۵/۰۱/۱۴ · :octicons-clock-24: ۱۲:۱۸
+</span>
 </div>
 

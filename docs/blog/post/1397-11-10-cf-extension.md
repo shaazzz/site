@@ -18,8 +18,12 @@ template: blog.html
 <p>نویسنده: حمیدرضا کلباسی (با کاپی میکائیل)</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۳۹۷/۱۱/۱۰ ۲۰:۰۴</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: طلاهای دوره ۲۸
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۷/۱۱/۱۰ · :octicons-clock-24: ۲۰:۰۴
+</span>
 </div>
 

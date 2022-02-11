@@ -33,8 +33,12 @@ template: blog.html
 <p><b><a href="http://bayanbox.ir/download/3490359670270775946/shaazzz5.7z">تست دیتا</a></b></p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">محمد مهدی شکری</div>
-    <div class="blog-date">۱۳۹۵/۰۳/۲۶ ۱۰:۳۰</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: محمد مهدی شکری
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۵/۰۳/۲۶ · :octicons-clock-24: ۱۰:۳۰
+</span>
 </div>
 

@@ -15,8 +15,12 @@ template: blog.html
 <p>همین دیگه.<br/></p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">شااززز منگولیا</div>
-    <div class="blog-date">۱۳۹۷/۰۳/۱۰ ۱۵:۱۳</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: شااززز منگولیا
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۷/۰۳/۱۰ · :octicons-clock-24: ۱۵:۱۳
+</span>
 </div>
 

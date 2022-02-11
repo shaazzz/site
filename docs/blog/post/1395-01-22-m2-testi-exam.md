@@ -32,8 +32,12 @@ template: blog.html
 <p><b>توجه کنید که حتما باید دکمه ذخیره پاسخ نامه را اکیدا قبل از اتمام آزمونتان بزنید.</b></p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">علی بهجتی</div>
-    <div class="blog-date">۱۳۹۵/۰۱/۲۲ ۱۶:۵۶</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: علی بهجتی
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۵/۰۱/۲۲ · :octicons-clock-24: ۱۶:۵۶
+</span>
 </div>
 

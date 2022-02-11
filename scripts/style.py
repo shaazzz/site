@@ -15,7 +15,7 @@ def encode_info(author, date):
 :fontawesome-regular-user: {author}
 </span>
 <span class="blog-date">
-:octicons-calendar-24: {date[0]}/{date[1]}/{date[2]} :octicons-clock-24: {date[3]}:{date[4]}
+:octicons-calendar-24: {date[0]}/{date[1]}/{date[2]} · :octicons-clock-24: {date[3]}:{date[4]}
 </span>
 </div>
 """

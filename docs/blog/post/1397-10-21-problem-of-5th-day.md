@@ -19,8 +19,12 @@ template: blog.html
 <p>نویسنده : ارشیا سلطانی</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">طلاهای دوره ۲۸</div>
-    <div class="blog-date">۱۳۹۷/۱۰/۲۱ ۲۳:۱۶</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: طلاهای دوره ۲۸
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۷/۱۰/۲۱ · :octicons-clock-24: ۲۳:۱۶
+</span>
 </div>
 

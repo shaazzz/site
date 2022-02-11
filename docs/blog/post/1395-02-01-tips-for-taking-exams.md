@@ -64,8 +64,12 @@ template: blog.html
 <p>باشه که مفید واقع بشه! :)</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">محمد مهدی شکری</div>
-    <div class="blog-date">۱۳۹۵/۰۲/۰۱ ۱۰:۳۱</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: محمد مهدی شکری
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۵/۰۲/۰۱ · :octicons-clock-24: ۱۰:۳۱
+</span>
 </div>
 

@@ -24,8 +24,12 @@ template: blog.html
 <p><br/></p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">سید مهدی صادق شبیری</div>
-    <div class="blog-date">۱۳۹۷/۰۳/۲۶ ۱۷:۴۶</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: سید مهدی صادق شبیری
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۷/۰۳/۲۶ · :octicons-clock-24: ۱۷:۴۶
+</span>
 </div>
 

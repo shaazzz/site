@@ -56,8 +56,12 @@ template: blog.html
 <p>با آرزوی موفقیت! :)</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">محمد مهدی شکری</div>
-    <div class="blog-date">۱۳۹۵/۰۴/۲۳ ۱۳:۴۱</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: محمد مهدی شکری
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۵/۰۴/۲۳ · :octicons-clock-24: ۱۳:۴۱
+</span>
 </div>
 

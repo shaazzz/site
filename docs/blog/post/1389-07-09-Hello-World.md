@@ -16,8 +16,12 @@ template: blog.html
 <p><strong>به‌روز‌رسانی:</strong>صفحه‌ی تغییرات اضافه شد. میل جدید شاززز راه‌اندازی شد. (توضیحات بیشتر در صفحه‌ی تغییرات)</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">شااززز منگولیا</div>
-    <div class="blog-date">۱۳۸۹/۰۷/۰۹ ۱۴:۲۹</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: شااززز منگولیا
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۸۹/۰۷/۰۹ · :octicons-clock-24: ۱۴:۲۹
+</span>
 </div>
 

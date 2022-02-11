@@ -30,8 +30,12 @@ template: blog.html
 <p>آپدیت ۱۱: ثبت نام تموم شد. یوزرهای جدید ساخته شد.</p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">شااززز منگولیا</div>
-    <div class="blog-date">۱۳۹۳/۱۰/۰۴ ۲۴:۳۹</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: شااززز منگولیا
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۳/۱۰/۰۴ · :octicons-clock-24: ۲۴:۳۹
+</span>
 </div>
 

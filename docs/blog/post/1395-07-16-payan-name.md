@@ -22,8 +22,12 @@ template: blog.html
 <p>پ.ن۲: به نظرتون کیا نویسنده‌های جدید هستند؟ <br/></p>
 </div>
 
-<div class="blog-info">
-    <div class="blog-author">علی بهجتی</div>
-    <div class="blog-date">۱۳۹۵/۰۷/۱۶ ۱۱:۵۱</div>
+<div class="blog-info" markdown>
+<span class="blog-author">
+:fontawesome-regular-user: علی بهجتی
+</span>
+<span class="blog-date">
+:octicons-calendar-24: ۱۳۹۵/۰۷/۱۶ · :octicons-clock-24: ۱۱:۵۱
+</span>
 </div>
 
