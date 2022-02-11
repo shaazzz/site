@@ -61,38 +61,21 @@ def parse_content(soup):
             match.replaceWithChildren()
     return content
 
-def encode_info(author, date):
-    date = list(map(str, date))
-    for i in range(1, 5):
-        if len(date[i]) < 2:
-            date[i] = "0" + date[i]
-    date = map(digits.en_to_fa, date)
-    date = list(date)
-
-    return f"""<div class="blog-info">
-    <div class="blog-author">{author}</div>
-    <div class="blog-date">{date[0]}/{date[1]}/{date[2]} {date[3]}:{date[4]}</div>
-</div>
-"""
-
 def markdown_post(href):
     title, author, date, content = parse_post(href)
     return f"""---
 blog:
     author: {author}
     date: {date}
-template: blog.html
 ---
 # {title}
 
 {content}
-
-{encode_info(author, date)}
 """
 
 def write_post(href):
     filename = sanitize(href)
-    with open(f"output/{filename}.md", 'w') as file:
+    with open(f"raw/{filename}.md", 'w') as file:
         file.write(markdown_post(href))
 
 links = []
