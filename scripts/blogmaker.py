@@ -4,7 +4,7 @@ from persiantools import digits
 import sys
 
 root = Path('docs/blog')
-blog_root = '/wiki'
+blog_root = ''
 
 def get_files():
     return list(root.glob('post/*.md'))
