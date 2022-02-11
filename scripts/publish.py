@@ -2,32 +2,7 @@ from argparse import ArgumentParser
 from pathlib import Path
 from frontmatter import Frontmatter
 from persiantools import digits, jdatetime
-
-def encode_info(author, date):
-    date = list(map(str, date))
-    for i in range(1, 5):
-        if len(date[i]) < 2:
-            date[i] = "0" + date[i]
-    date = map(digits.en_to_fa, date)
-    date = list(date)
-
-    return f"""<div class="blog-info">
-    <div class="blog-author">{author}</div>
-    <div class="blog-date">{date[0]}/{date[1]}/{date[2]} {date[3]}:{date[4]}</div>
-</div>
-"""
-
-def read_file(file):
-    post = Frontmatter.read_file(file)
-    author = None
-    date = None
-    if "blog" in post["attributes"]:
-        attrs = post["attributes"]["blog"]
-        if "author" in attrs:
-            author = attrs["author"]
-        if "date" in attrs:
-            date = attrs["date"]
-    return author, date, post["body"]
+from style import read_file, style
 
 def get_now():
     now = jdatetime.JalaliDateTime.now()
@@ -97,7 +72,7 @@ def main():
         raise Exception("No date")
 
     filename = get_filename(content, date)
-    write_file(filename, markdown_post(content, author, date))
+    write_file(filename, style(content, author, date))
 
 if __name__ == "__main__":
     main()
