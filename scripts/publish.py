@@ -8,18 +8,6 @@ def get_now():
     now = jdatetime.JalaliDateTime.now()
     return [now.year, now.month, now.day, now.hour, now.minute]
 
-def markdown_post(content, author, date):
-    return f"""---
-blog:
-    author: {author}
-    date: {date}
-template: blog.html
----
-{content}
-
-{encode_info(author, date)}
-"""
-
 def write_file(filename, content):
     path = f'docs/blog/post/{filename}'
     print(f"Writing to {path}")
@@ -35,7 +23,7 @@ def get_title(content):
 
 def get_filename(content, date):
     title = get_title(content)
-    title.replace(' ', '-')
+    title = title.replace(' ', '-')
     date = list(map(str, date))
     for i in range(1, 3):
         if len(date[i]) < 2:
