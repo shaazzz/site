@@ -5,6 +5,12 @@ head:
   - مرحله دوم تشریحی
 body:
   -
+    - "دوره ۳۲"
+    - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/32/m1/statement.pdf
+      "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/32/m1/solution.pdf
+    -
+    -
+  -
     - "دوره ۳۱"
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/31/m1/statement.pdf
       "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/31/m1/solution.pdf
@@ -49,6 +55,7 @@ body:
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/25/m2/testi.pdf
       "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/25/m2/testi-solution.pdf
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/25/m2/tashrihi.pdf
+      "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/25/m2/tashrihi-solution.pdf
   -
     - "دوره ۲۴"
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/24/m1/statement.pdf
@@ -56,12 +63,14 @@ body:
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/24/m2/testi.pdf
       "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/24/m2/testi-solution.pdf
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/24/m2/tashrihi.pdf
+      "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/24/m2/tashrihi-solution.pdf
   -
     - "دوره ۲۳"
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m1/statement.pdf
       "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m1/solution.pdf
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m2/testi.pdf
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m2/tashrihi.pdf
+      "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m2/tashrihi-solution.pdf
   -
     - "دوره ۲۲"
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/22/m1/statement.pdf
