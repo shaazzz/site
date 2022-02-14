@@ -76,5 +76,5 @@ extra:
 nav:
   - index.md
   - کتاب گراف: https://gtoi.shaazzz.ir/
-  - آزمون‌ها: https://github.com/shaazzz/shaazzz-exam
-  - عکس دوره‌های قبل: extra/last-years
+  - extra/last-years.md
+  - archive/index.md
