@@ -22,7 +22,7 @@ def generate_row(row):
     return f"|{'|'.join(map(generate_cell, row))}|\n"
 
 with open('archive.yml', 'r') as file:
-    data = yaml.load(file)
+    data = yaml.safe_load(file)
 
 table = generate_head(data['head'])
 for row in data["body"]:

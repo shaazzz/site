@@ -1,6 +1,5 @@
 from argparse import ArgumentParser
 from pathlib import Path
-from frontmatter import Frontmatter
 from persiantools import digits, jdatetime
 from style import read_file, style
 

@@ -1,6 +1,8 @@
+import frontmatter
+
 from persiantools import digits
 from pathlib import Path
-from frontmatter import Frontmatter
+
 
 def encode_info(author, date):
     date = list(map(str, date))
@@ -32,16 +34,17 @@ template: blog.html
 """
 
 def read_file(file):
-    post = Frontmatter.read_file(file)
+    post = frontmatter.load(file)
+    metadata = post.metadata
     author = None
     date = None
-    if "blog" in post["attributes"]:
-        attrs = post["attributes"]["blog"]
+    if "blog" in metadata:
+        attrs = metadata["blog"]
         if "author" in attrs:
             author = attrs["author"]
         if "date" in attrs:
             date = attrs["date"]
-    return author, date, post["body"]
+    return author, date, post.content
 
 def main():
     for post in Path('scripts/raw/').glob('*.md'):

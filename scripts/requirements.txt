@@ -1,4 +1,4 @@
-frontmatter
+python-frontmatter
 persiantools
 requests
 beautifulsoup4

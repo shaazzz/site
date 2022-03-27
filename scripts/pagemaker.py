@@ -1,7 +1,7 @@
 from pathlib import Path
-from frontmatter import Frontmatter
 from persiantools import digits
 import sys
+import frontmatter
 
 root = Path('docs/blog')
 blog_root = ''
@@ -10,8 +10,8 @@ def get_files():
     return list(root.glob('post/*.md'))
 
 def read_meta(file):
-    post = Frontmatter.read_file(file)
-    return post["attributes"]["blog"]
+    post = frontmatter.load(file)
+    return post.metadata["blog"]
 
 def get_metafiles(files):
     result = []
@@ -43,8 +43,8 @@ def make_page(index, metafiles, n_page, title=None, result_path=None):
         file.write(content)
 
 def read_content(file):
-    post = Frontmatter.read_file(file)
-    content = post["body"].split('\n')
+    post = frontmatter.load(file)
+    content = post.content.split('\n')
     _, loc = str(file).split('/', 1)
     loc = f'{blog_root}/{loc[:-3]}'
     for i in range(len(content)):
