@@ -51,6 +51,9 @@ title: آرشیو
 |دوره ۵|[سوالات](https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/5/m1/statement.pdf)، [پاسخنامه](https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/5/m1/solution.pdf)||[روز اول](https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/5/m2/tashrihi-day1.pdf)، [روز دوم](https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/5/m2/tashrihi-day2.pdf)|
 |دوره ۴|[سوالات](https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/4/m1/statement.pdf)||[روز اول](https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/4/m2/tashrihi-day1.pdf)، [روز دوم](https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/4/m2/tashrihi-day2.pdf)|
 
+- [کتاب پاسخی بر المپیاد‌های کامپیوتر ایران، نوشته آقای یاسر احمدی فولادی](https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/other/fuladi.pdf)
+سوالات و پاسخنامه‌های مرحله دوم دوره‌های ۱ تا ۱۳ رو شامل میشه. پی‌دی‌اف کتاب به دلیل چاپ نشدن مجدد کتاب و با اجازه نویسنده در دسترس عموم قرار گرفته.
+
 ## آزمون‌های شاززز
 
 همه‌ی آزمون‌های شاززز رو می‌تونید از
