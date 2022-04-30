@@ -36,12 +36,14 @@ body:
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/28/m1/statement.pdf
       "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/28/m1/solution.pdf
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/28/m2/testi.pdf
+      "کلید": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/28/m2/testi-key.png
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/28/m2/tashrihi.pdf
   -
     - "دوره ۲۷"
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/27/m1/statement.pdf
       "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/27/m1/solution.pdf
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/27/m2/testi.pdf
+      "کلید": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/27/m2/testi-key.png
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/27/m2/tashrihi.pdf
   -
     - "دوره ۲۶"
@@ -72,7 +74,7 @@ body:
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m1/statement.pdf
       "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m1/solution.pdf
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m2/testi.pdf
-      "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m2/testi-solution.pdf
+      "کلید": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m2/testi-key.pdf
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m2/tashrihi.pdf
       "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/23/m2/tashrihi-solution.pdf
   -
@@ -87,6 +89,7 @@ body:
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/21/m1/statement.pdf
       "پاسخنامه": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/21/m1/solution.pdf
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/21/m2/testi.pdf
+      "کلید": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/21/m2/testi-key.jpg
     - "سوالات": https://shaazzz.s3.ir-thr-at1.arvanstorage.com/src/21/m2/tashrihi.pdf
   -
     - "دوره ۲۰"
