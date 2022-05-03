@@ -23,7 +23,7 @@ theme:
         name: تم تیره
   language: fa
   font:
-    text: Vazir
+    text: Vazirmatn
     code: Source Code Pro
   logo: assets/images/sid.png
   favicon: assets/images/sid.png
