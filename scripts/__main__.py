@@ -1,14 +1,15 @@
 import argparse
 from argparse import ArgumentParser
 
-from . import export, generate_table
+from . import export, generate_table, style
 
 def main():
     main_parser = ArgumentParser(description='shaazzz util scripts')
 
     modules = {
         'export': export,
-        'generate-table': generate_table
+        'generate-table': generate_table,
+        'style': style
     }
     subparsers = main_parser.add_subparsers(required=True)
     for cmd, mod in modules.items():

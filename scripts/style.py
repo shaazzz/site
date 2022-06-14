@@ -1,7 +1,8 @@
-import frontmatter
-
-from persiantools import digits
+from argparse import ArgumentParser
 from pathlib import Path
+
+import frontmatter
+from persiantools import digits
 
 
 def encode_info(author, date):
@@ -46,11 +47,23 @@ def read_file(file):
             date = attrs["date"]
     return author, date, post.content
 
-def main():
-    for post in Path('scripts/raw/').glob('*.md'):
+def main(args):
+    for post in args.location.glob('*.md'):
         author, date, content = read_file(post)
-        with open(f'docs/blog/post/{post.name}', 'w') as file:
+        with open(args.destination / post.name, 'w') as file:
             file.write(style(content, author, date))
 
-if __name__ == "__main__":
-    main()
+def init(parser: ArgumentParser):
+    parser.add_argument(
+        '-l', '--location',
+        help='location of raw blog posts',
+        required=True,
+        type=Path
+    )
+    parser.add_argument(
+        '-d', '--destination',
+        help='destination of blog posts',
+        required=True,
+        type=Path
+    )
+    parser.set_defaults(func=main)
