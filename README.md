@@ -2,12 +2,12 @@
 
 Powered by [Material for MkDocs](https://github.com/squidfunk/mkdocs-material)
 
-## How to publish a blog post
+## Publish a blog post
 
 First you should install dependencies. You have to run this command.
 
 ```console
-$ pip install -r scripts/requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Write your blog in a markdown file (`.md`), outside of project directory. Your file should look like this.
@@ -26,7 +26,25 @@ Blog contents...
 Then run this command to add your file to the blogs section.
 
 ```console
-$ python scripts/publish.py -f /path/to/post.md
+$ python -m scripts publish -f /path/to/post.md
 ```
 
 At last, add, commit, and push the changes.
+
+## Add archive entry
+
+Edit `archive.yml`. This command will output the markdown table for archive section.
+```console
+$ python -m scripts generate-table -f archive.yml
+```
+
+Copy the output and paste it in `docs/archive/index.md`.
+
+## Preview blog
+
+```console
+$ pip install -r requirements.txt
+$ pip install mkdocs-material
+$ python -m scripts page-maker
+$ mkdocs serve
+```
