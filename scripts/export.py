@@ -1,7 +1,11 @@
+import urllib
+from argparse import ArgumentParser
+from pathlib import Path
+
 import requests as req
 from bs4 import BeautifulSoup
-import urllib
 from persiantools import digits
+
 
 def fetch_page(n):
     print(f"fetch {n}")
@@ -73,14 +77,30 @@ blog:
 {content}
 """
 
-def write_post(href):
+def write_post(loc: Path, href):
     filename = sanitize(href)
-    with open(f"raw/{filename}.md", 'w') as file:
+    with open(loc / f"{filename}.md", 'w') as file:
         file.write(markdown_post(href))
 
-links = []
-for i in range(1, 30):
-    links += list(find_links(fetch_page(i)))
+def main(args):
+    links = []
+    for i in range(1, args.num_pages+1):
+        links += list(find_links(fetch_page(i)))
 
-for l in links:
-    write_post(l)
+    for l in links:
+        write_post(args.location, l)
+
+def init(parser: ArgumentParser):
+    parser.add_argument(
+        '-l', '--location',
+        help='location to save raw blog posts',
+        required=True,
+        type=Path
+    )
+    parser.add_argument(
+        '-n', '--num-pages',
+        help='number of blog pages',
+        required=True,
+        type=int
+    )
+    parser.set_defaults(func=main)
