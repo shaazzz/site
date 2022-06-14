@@ -1,3 +1,6 @@
+from argparse import ArgumentParser
+from pathlib import Path
+
 import yaml
 
 def generate_head(head):
@@ -21,10 +24,20 @@ def generate_cell(cell):
 def generate_row(row):
     return f"|{'|'.join(map(generate_cell, row))}|\n"
 
-with open('scripts/archive.yml', 'r') as file:
-    data = yaml.safe_load(file)
+def main(args):
+    with open(args.file, 'r') as file:
+        data = yaml.safe_load(file)
 
-table = generate_head(data['head'])
-for row in data["body"]:
-    table += generate_row(row)
-print(table)
+    table = generate_head(data['head'])
+    for row in data["body"]:
+        table += generate_row(row)
+    print(table)
+
+def init(parser: ArgumentParser):
+    parser.add_argument(
+        '-f', '--file',
+        help='location of archive.yml',
+        required=True,
+        type=Path
+    )
+    parser.set_defaults(func=main)

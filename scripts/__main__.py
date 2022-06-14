@@ -1,15 +1,16 @@
 import argparse
 from argparse import ArgumentParser
 
-from . import export
+from . import export, generate_table
 
 def main():
     main_parser = ArgumentParser(description='shaazzz util scripts')
 
     modules = {
-        'export': export
+        'export': export,
+        'generate-table': generate_table
     }
-    subparsers = main_parser.add_subparsers()
+    subparsers = main_parser.add_subparsers(required=True)
     for cmd, mod in modules.items():
         parser = subparsers.add_parser(cmd)
         mod.init(parser)
