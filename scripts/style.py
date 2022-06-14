@@ -34,6 +34,15 @@ template: blog.html
 {encode_info(author, date)}
 """
 
+def raw_style(content, author, date):
+    return f"""---
+blog:
+    author: {author}
+    date: {date}
+---
+{content}
+"""
+
 def read_file(file):
     post = frontmatter.load(file)
     metadata = post.metadata

@@ -1,14 +1,16 @@
 from argparse import ArgumentParser
 from pathlib import Path
+
 from persiantools import digits, jdatetime
-from style import read_file, style
+
+from .style import read_file, style, raw_style
+
 
 def get_now():
     now = jdatetime.JalaliDateTime.now()
     return [now.year, now.month, now.day, now.hour, now.minute]
 
-def write_file(filename, content):
-    path = f'docs/blog/post/{filename}'
+def write_file(path, content):
     print(f"Writing to {path}")
     with open(path, 'w') as file:
         file.write(content)
@@ -29,26 +31,7 @@ def get_filename(content, date):
             date[i] = '0'+date[i]
     return f'{date[0]}-{date[1]}-{date[2]}-{title}.md'
 
-def main():
-    global args
-    argparse = ArgumentParser(description='publish blog post')
-    argparse.add_argument(
-        '-f','--file',
-        type=Path,
-        help='Content of blog post in markdown format (required)',
-        required=True
-    )
-    argparse.add_argument(
-        '-a','--author',
-        type=str,
-        help='Author of blog post',
-    )
-    argparse.add_argument(
-        '-d','--date',
-        type=str,
-        help='Blog published datetime, in this format: "{year} {month} {day} {hour} {minute} (optional, default is the current time)'
-    )
-    args = argparse.parse_args()
+def main(args):
     author, date, content = read_file(args.file)
     author = author or args.author
     date = date or args.date or get_now()
@@ -59,7 +42,24 @@ def main():
         raise Exception("No date")
 
     filename = get_filename(content, date)
-    write_file(filename, style(content, author, date))
+    write_file(f'docs/blog/post/{filename}', style(content, author, date))
+    write_file(f'raw/{filename}', raw_style(content, author, date))
 
-if __name__ == "__main__":
-    main()
+def init(parser: ArgumentParser):
+    parser.add_argument(
+        '-f','--file',
+        type=Path,
+        help='Content of blog post in markdown format (required)',
+        required=True
+    )
+    parser.add_argument(
+        '-a','--author',
+        type=str,
+        help='Author of blog post',
+    )
+    parser.add_argument(
+        '-d','--date',
+        type=str,
+        help='Blog published datetime, in this format: "{year} {month} {day} {hour} {minute} (optional, default is the current time)'
+    )
+    parser.set_defaults(func=main)

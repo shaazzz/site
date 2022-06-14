@@ -1,7 +1,7 @@
 import argparse
 from argparse import ArgumentParser
 
-from . import export, generate_table, style, pagemaker
+from . import export, generate_table, style, pagemaker, publish
 
 def main():
     main_parser = ArgumentParser(description='shaazzz util scripts')
@@ -10,7 +10,8 @@ def main():
         'export': export,
         'generate-table': generate_table,
         'style': style,
-        'page-maker': pagemaker
+        'page-maker': pagemaker,
+        'publish': publish
     }
     subparsers = main_parser.add_subparsers(required=True)
     for cmd, mod in modules.items():
