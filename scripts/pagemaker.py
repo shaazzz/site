@@ -1,10 +1,11 @@
-from pathlib import Path
-from persiantools import digits
 import sys
+from argparse import ArgumentParser
+from pathlib import Path
+
 import frontmatter
+from persiantools import digits
 
 root = Path('docs/blog')
-blog_root = ''
 
 def get_files():
     return list(root.glob('post/*.md'))
@@ -46,7 +47,7 @@ def read_content(file):
     post = frontmatter.load(file)
     content = post.content.split('\n')
     _, loc = str(file).split('/', 1)
-    loc = f'{blog_root}/{loc[:-3]}'
+    loc = f'/{loc[:-3]}'
     for i in range(len(content)):
         if content[i][0:2] == '# ':
             _, title = content[i].split(' ', 1)
@@ -58,7 +59,7 @@ def read_content(file):
 def make_pagination(index, n_page):
     result = '<div class="blog-page" markdown>\n\n'
     sant = lambda x : digits.en_to_fa(str(x))
-    path = lambda x : f'{blog_root}/blog/page/{x}'
+    path = lambda x : f'/blog/page/{x}'
     if index > 2:
         result += f'[:material-arrow-collapse-left: {sant(1)}]({path(1)})\n'
     if index > 1:
@@ -71,15 +72,12 @@ def make_pagination(index, n_page):
     result += '\n</div>'
     return result
 
-def main():
-    global blog_root
-    if len(sys.argv) == 2:
-        blog_root = sys.argv[1]
+def main(args):
     (root/'page').mkdir(exist_ok=True)
     files = get_files()
     metafiles = get_metafiles(files)
     metafiles.sort(key=lambda u: u[1]['date'], reverse=True)
     make_all(metafiles)
 
-if __name__ == "__main__":
-    main()
+def init(parser: ArgumentParser):
+    parser.set_defaults(func=main)
