@@ -2,6 +2,7 @@ site_name: شاززز
 site_url: https://shaazzz.ir
 site_author: shaazzz
 site_description: وب‌سایت آزاد المپیاد کامپیوتر
+
 copyright: |
   تمامی مطالب این وب‌سایت تحت پروانه
   <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color: #4ab6f1">CC-BY-SA</a>
@@ -27,13 +28,38 @@ theme:
     code: Source Code Pro
   logo: assets/images/sid.png
   favicon: assets/images/sid.png
-  plugins:
-    - search:
-        lang:
-          - en
-          - fa
   features:
     - navigation.tabs
+    - content.code.copy
+
+nav:
+  - index.md
+  - کتاب گراف: https://gtoi.shaazzz.ir/
+  - extra/last-years.md
+  - archive/index.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: material/web
+      link: https://shaazzz.ir
+      name: وب‌سایت
+    - icon: fontawesome/brands/github
+      link: https://github.com/shaazzz
+      name: گیت‌هاب
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/shaazzz
+      name: تلگرام
+
+plugins:
+  - search
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -57,24 +83,3 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
-extra_css:
-  - stylesheets/extra.css
-extra_javascript:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-extra:
-  social:
-    - icon: material/web
-      link: https://shaazzz.ir
-      name: وب‌سایت
-    - icon: fontawesome/brands/github
-      link: https://github.com/shaazzz
-      name: گیت‌هاب
-    - icon: fontawesome/brands/telegram
-      link: https://t.me/shaazzz
-      name: تلگرام
-nav:
-  - index.md
-  - کتاب گراف: https://gtoi.shaazzz.ir/
-  - extra/last-years.md
-  - archive/index.md
