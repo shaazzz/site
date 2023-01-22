@@ -57,21 +57,21 @@ def read_file(file):
     return author, date, post.content
 
 def main(args):
-    for post in args.location.glob('*.md'):
-        author, date, content = read_file(post)
-        with open(args.destination / post.name, 'w') as file:
-            file.write(style(content, author, date))
+    post = args.location
+    author, date, content = read_file(post)
+    with open(args.destination, 'w') as file:
+        file.write(style(content, author, date))
 
 def init(parser: ArgumentParser):
     parser.add_argument(
         '-l', '--location',
-        help='location of raw blog posts',
+        help='location of raw blog post',
         required=True,
         type=Path
     )
     parser.add_argument(
         '-d', '--destination',
-        help='destination of blog posts',
+        help='destination of blog post',
         required=True,
         type=Path
     )

@@ -42,7 +42,6 @@ def main(args):
         raise Exception("No date")
 
     filename = get_filename(content, date)
-    write_file(f'docs/blog/post/{filename}', style(content, author, date))
     write_file(f'raw/{filename}', raw_style(content, author, date))
 
 def init(parser: ArgumentParser):
