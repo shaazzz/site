@@ -2,13 +2,35 @@
 
 Powered by [Material for MkDocs](https://github.com/squidfunk/mkdocs-material)
 
-## Publish a blog post
+## Requirements
 
-First you should install dependencies. You have to run this command.
+Install python dependencies:
 
 ```console
 $ pip install -r requirements.txt
 ```
+
+## Build
+
+Build the whole blog (including blog posts, pages, and archive page):
+
+```console
+$ make
+```
+
+Preview the blog locally:
+
+```console
+$ make serve
+```
+
+Remove all build files:
+
+```console
+$ make clean
+```
+
+## Publish a blog post
 
 Write your blog in a markdown file (`.md`), outside of project directory. Your file should look like this.
 
@@ -33,18 +55,4 @@ At last, add, commit, and push the changes.
 
 ## Add archive entry
 
-Edit `archive.yml`. This command will output the markdown table for archive section.
-```console
-$ python -m scripts generate-table -f archive.yml
-```
-
-Copy the output and paste it in `docs/archive/index.md`.
-
-## Preview blog
-
-```console
-$ pip install -r requirements.txt
-$ pip install mkdocs-material
-$ python -m scripts page-maker
-$ mkdocs serve
-```
+Just edit `archive.yml`. The entry will be automatically added on build.
