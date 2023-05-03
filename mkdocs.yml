@@ -36,8 +36,8 @@ nav:
   - index.md
   - شازززگاید: https://guide.shaazzz.ir/
   - کتاب گراف: https://gtoi.shaazzz.ir/
-  - extra/last-years.md
-  - archive/index.md
+  - last-years.md
+  - archive.md
 
 extra_css:
   - stylesheets/extra.css

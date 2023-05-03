@@ -32,7 +32,7 @@ $ make clean
 
 ## Publish a blog post
 
-Write your blog in a markdown file (`.md`), outside of project directory. Your file should look like this.
+Write your blog in a markdown file (`.md`), outside of the project directory. Your file should look like this.
 
 ```markdown
 ---
