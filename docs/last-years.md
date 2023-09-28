@@ -107,6 +107,9 @@ function ch32(a)
 <area onmouseover="ch29_2('موس را روی افراد ببرید')" shape="default"/></map></p>
 <div id="nameField29_2">موس را روی افراد ببرید</div>
 
+<hr size="2" width="100%"/>
+<p>دوره ۳۰</p>
+<p><img alt="inoi30" src="/assets/inoi-images/inoi30.jpg" usemap="#inoi30"/></p>
 
 <hr size="2" width="100%"/>
 <p>دوره ۳۱</p>
