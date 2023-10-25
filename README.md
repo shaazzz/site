@@ -4,7 +4,7 @@ Powered by [Material for MkDocs](https://github.com/squidfunk/mkdocs-material)
 
 ## Requirements
 
-Install python dependencies:
+You need python requirements only if you want to locally serve the blog.
 
 ```console
 $ pip install -r requirements.txt
@@ -32,26 +32,19 @@ $ make clean
 
 ## Publish a blog post
 
-Write your blog in a markdown file (`.md`), outside of the project directory. Your file should look like this.
+Write your blog in a markdown file (`.md`), inside `raw/`. Filename should follow this convention: `YEAR-MONTH-DAY-TITLE.md`. The file content looks like this.
 
 ```markdown
 ---
 blog:
     author: # author name
+    date: [YEAR, MONTH, DAY, HOUR, MINUTE] # date of last modification
 ---
 
 # Blog title here
 
 Blog contents...
 ```
-
-Then run this command to add your file to the blogs section.
-
-```console
-$ python -m scripts publish -f /path/to/post.md
-```
-
-At last, add, commit, and push the changes.
 
 ## Add archive entry
 
