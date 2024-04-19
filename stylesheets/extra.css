@@ -1,0 +1,42 @@
+/* @import url('https://v1.fontapi.ir/css/Vazir'); */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+:root > * {
+  --md-primary-fg-color:        #073e5c;
+}
+[data-md-color-scheme="slate"] {
+  --md-hue: 210;
+  --md-typeset-a-color: #4ab6f1;
+}
+.md-sidebar--primary {
+  display: none;
+}
+.md-header__button.md-logo,
+.md-tabs {
+  display: block !important;
+}
+.blog-info > p {
+  display: flex;
+  justify-content: space-between;
+  color: var(--md-default-fg-color--light);
+  font-size: 90%;
+  margin-top: 50px;
+}
+.blog-info .blog-date {
+  direction: ltr;
+}
+.blog-page {
+  direction: ltr;
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+}
+.blog-page a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+span.twemoji {
+  vertical-align: middle !important;
+}
+.last-years img {
+  max-width: 680px;
+}
