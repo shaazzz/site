@@ -27,7 +27,7 @@ theme:
     text: Vazirmatn
     code: Source Code Pro
   logo: assets/images/logo.png
-  favicon: assets/images/logo.png
+  favicon: assets/images/tabicon.png
   features:
     - navigation.tabs
     - content.code.copy
